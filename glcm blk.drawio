@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Rug4JuukHAYneQm5wNJj">
-    <mxGraphModel dx="2096" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1263" dy="227" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mblEU8xCrX_HbyowVpTO-104" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#E3EFFA;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="187.5" width="485" x="45" y="232.5" as="geometry" />
+          <mxGeometry height="160" width="485" x="45" y="240" as="geometry" />
         </mxCell>
         <mxCell id="mblEU8xCrX_HbyowVpTO-105" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=24;fontStyle=1" value="Data splitting" vertex="1">
           <mxGeometry height="34" width="215" x="182.5" y="250" as="geometry" />
@@ -59,16 +59,16 @@
           <mxGeometry height="61.5" width="174" x="-169" y="637.5" as="geometry" />
         </mxCell>
         <mxCell id="mblEU8xCrX_HbyowVpTO-134" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#d0cee2;strokeColor=#56517e;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="187.5" width="170" x="-170" y="232.5" as="geometry" />
+          <mxGeometry height="181" width="170" x="-170" y="229.5" as="geometry" />
         </mxCell>
         <mxCell id="mblEU8xCrX_HbyowVpTO-135" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=24;" value="EUROSAT" vertex="1">
-          <mxGeometry height="60" width="130" x="-150" y="281.5" as="geometry" />
+          <mxGeometry height="52" width="130" x="-150" y="278.5" as="geometry" />
         </mxCell>
         <mxCell id="mblEU8xCrX_HbyowVpTO-136" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=24;" value="RSI-CB256" vertex="1">
-          <mxGeometry height="60" width="130" x="-150" y="347.5" as="geometry" />
+          <mxGeometry height="52" width="130" x="-150" y="337" as="geometry" />
         </mxCell>
         <mxCell id="mblEU8xCrX_HbyowVpTO-137" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1" value="&lt;span&gt;Dataset&lt;/span&gt;" vertex="1">
-          <mxGeometry height="67.5" width="130" x="-150" y="225.5" as="geometry" />
+          <mxGeometry height="41.5" width="130" x="-148" y="230" as="geometry" />
         </mxCell>
         <mxCell id="mblEU8xCrX_HbyowVpTO-140" edge="1" parent="1" source="mblEU8xCrX_HbyowVpTO-134" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="mblEU8xCrX_HbyowVpTO-104" value="">
           <mxGeometry relative="1" width="100" as="geometry">
