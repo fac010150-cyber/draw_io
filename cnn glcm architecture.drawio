@@ -1,17 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="CNN-GLCM-SVM Architecture" id="Wl_gSWdUnqIay8AT85t3">
-    <mxGraphModel dx="2560" dy="1545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2946" dy="1745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4F8;strokeColor=#5B6B73;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="150" width="145" x="35" y="330" as="geometry" />
-        </mxCell>
-        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontStyle=1;fontSize=18;align=center;verticalAlign=middle;" value="Input Image" vertex="1">
-          <mxGeometry height="30" width="115" x="50" y="345" as="geometry" />
-        </mxCell>
-        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9EEF5;strokeColor=#7EA7B5;fontSize=18;" value="64 × 64 × 3" vertex="1">
-          <mxGeometry height="48" width="115" x="50" y="395" as="geometry" />
+        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4F8;strokeColor=#5B6B73;strokeWidth=2;" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Input Image&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="150" x="-220" y="354" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4F8;strokeColor=#5B6B73;strokeWidth=2;" value="" vertex="1">
           <mxGeometry height="315" width="570" x="225" y="95" as="geometry" />
@@ -76,8 +70,8 @@
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontStyle=1;fontSize=19;align=center;" value="GLCM TEXTURE FEATURE EXTRACTION" vertex="1">
           <mxGeometry height="30" width="290" x="365" y="475" as="geometry" />
         </mxCell>
-        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#A88B52;fontSize=14;" value="Preprocessed&lt;br&gt;Image" vertex="1">
-          <mxGeometry height="48" width="120" x="250" y="530" as="geometry" />
+        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#000000;fontSize=20;fontStyle=1;strokeWidth=2;" value="Preprocessed&lt;br&gt;Image" vertex="1">
+          <mxGeometry height="55" width="200" x="-40" y="354" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#A88B52;fontSize=13;" value="GLCM Feature Extraction&lt;br&gt;Contrast • Dissimilarity&lt;br&gt;Homogeneity • Energy&lt;br&gt;Correlation • ASM" vertex="1">
           <mxGeometry height="72" width="220" x="400" y="520" as="geometry" />
@@ -121,17 +115,6 @@
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-49" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-31" />
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-50" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-32" />
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-51" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-33" />
-        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=13;fontStyle=2;align=center;" value="Preprocessed image" vertex="1">
-          <mxGeometry height="25" width="125" x="50" y="520" as="geometry" />
-        </mxCell>
-        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-53" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;dashed=1;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-25">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="185" y="420" />
-              <mxPoint x="185" y="554" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
