@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="CNN-GLCM-SVM Architecture" id="Wl_gSWdUnqIay8AT85t3">
-    <mxGraphModel dx="2946" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2560" dy="1573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,22 +86,22 @@
           <mxGeometry height="55" width="120" x="840" y="515" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE9F8;strokeColor=#76689A;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="520" width="360" x="1190" y="110" as="geometry" />
+          <mxGeometry height="520" width="360" x="1470" y="92" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontStyle=1;fontSize=18;align=center;" value="FEATURE FUSION &amp; CLASSIFICATION" vertex="1">
-          <mxGeometry height="30" width="320" x="1210" y="125" as="geometry" />
+          <mxGeometry height="30" width="320" x="1490" y="107" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2D9F3;strokeColor=#76689A;fontSize=14;fontStyle=1;" value="Feature Fusion&lt;br&gt;64-D CNN + 6-D GLCM&lt;br&gt;= 70-D Feature Vector" vertex="1">
-          <mxGeometry height="72" width="260" x="1240" y="195" as="geometry" />
+          <mxGeometry height="72" width="260" x="870" y="362" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2D9F3;strokeColor=#76689A;fontSize=15;" value="StandardScaler" vertex="1">
-          <mxGeometry height="45" width="170" x="1285" y="305" as="geometry" />
+          <mxGeometry height="45" width="170" x="1565" y="287" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2D9F3;strokeColor=#76689A;fontSize=15;fontStyle=1;" value="Linear SVM&lt;br&gt;Classifier" vertex="1">
-          <mxGeometry height="55" width="170" x="1285" y="390" as="geometry" />
+          <mxGeometry height="55" width="170" x="1565" y="372" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2E3E0;strokeColor=#9B7770;fontSize=14;fontStyle=1;" value="Predicted Class&lt;br&gt;RSI-CB256: 4 classes&lt;br&gt;EuroSAT: 10 classes" vertex="1">
-          <mxGeometry height="72" width="240" x="1250" y="495" as="geometry" />
+          <mxGeometry height="72" width="240" x="1530" y="477" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-34" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-8" />
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-35" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-9" />
@@ -142,6 +142,24 @@
             </Array>
             <mxPoint x="240" y="470" as="sourcePoint" />
             <mxPoint x="340" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-61" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-22" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="Jhfz-XPS4-5gAI2HYHQ7-30" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="252.5" />
+            </Array>
+            <mxPoint x="980" y="420" as="sourcePoint" />
+            <mxPoint x="1080" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-62" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-27" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" target="Jhfz-XPS4-5gAI2HYHQ7-30" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="542.5" />
+            </Array>
+            <mxPoint x="970" y="470" as="sourcePoint" />
+            <mxPoint x="1070" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
