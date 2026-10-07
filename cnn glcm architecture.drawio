@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="CNN-GLCM-SVM Architecture" id="Wl_gSWdUnqIay8AT85t3">
-    <mxGraphModel dx="2946" dy="1745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2297" dy="1409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;align=center;" value="CNN Stage 1" vertex="1">
           <mxGeometry height="28" width="130" x="260" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B1DAE7;strokeColor=#7EA7B5;fontSize=13;" value="Conv2D&lt;br&gt;Filters: 8&lt;br&gt;Kernel: 3×3&lt;br&gt;Padding: valid" vertex="1">
+        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B1DAE7;strokeColor=#7EA7B5;fontSize=13;" value="Conv2D&lt;br&gt;Filters: 8&lt;br&gt;Kernel: 3×3" vertex="1">
           <mxGeometry height="58" width="130" x="260" y="195" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B1DAE7;strokeColor=#7EA7B5;fontSize=13;" value="Batch Normalization" vertex="1">
@@ -37,7 +37,7 @@
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;align=center;" value="CNN Stage 2" vertex="1">
           <mxGeometry height="28" width="130" x="440" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B1DAE7;strokeColor=#7EA7B5;fontSize=13;" value="Conv2D&lt;br&gt;Filters: 16&lt;br&gt;Kernel: 3×3&lt;br&gt;Padding: valid" vertex="1">
+        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B1DAE7;strokeColor=#7EA7B5;fontSize=13;" value="Conv2D&lt;br&gt;Filters: 16&lt;br&gt;Kernel: 3×3" vertex="1">
           <mxGeometry height="58" width="130" x="440" y="195" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B1DAE7;strokeColor=#7EA7B5;fontSize=13;" value="Batch Normalization" vertex="1">
