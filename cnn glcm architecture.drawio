@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="CNN-GLCM-SVM Architecture" id="Wl_gSWdUnqIay8AT85t3">
-    <mxGraphModel dx="2297" dy="1409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2560" dy="1545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,7 +53,7 @@
           <mxGeometry height="235" width="170" x="605" y="150" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;align=center;" value="Feature Aggregation" vertex="1">
-          <mxGeometry height="28" width="150" x="615" y="160" as="geometry" />
+          <mxGeometry height="28" width="150" x="615" y="150" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B1DAE7;strokeColor=#7EA7B5;fontSize=13;" value="Global Average&lt;br&gt;Pooling" vertex="1">
           <mxGeometry height="42" width="130" x="625" y="205" as="geometry" />
@@ -73,8 +73,8 @@
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#000000;fontSize=20;fontStyle=1;strokeWidth=2;" value="Preprocessed&lt;br&gt;Image" vertex="1">
           <mxGeometry height="55" width="200" x="-40" y="354" as="geometry" />
         </mxCell>
-        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#A88B52;fontSize=13;" value="GLCM Feature Extraction&lt;br&gt;Contrast • Dissimilarity&lt;br&gt;Homogeneity • Energy&lt;br&gt;Correlation • ASM" vertex="1">
-          <mxGeometry height="72" width="220" x="400" y="520" as="geometry" />
+        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#A88B52;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="105" width="140" x="445" y="535" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#A88B52;fontSize=13;fontStyle=1;" value="GLCM Feature Vector&lt;br&gt;6-D" vertex="1">
           <mxGeometry height="48" width="120" x="650" y="530" as="geometry" />
@@ -115,6 +115,9 @@
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-49" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-31" />
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-50" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-32" />
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-51" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-33" />
+        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Contrast&amp;nbsp;&lt;/li&gt;&lt;li&gt;Dissimilarity&lt;/li&gt;&lt;li&gt;Homogeneity&amp;nbsp;&lt;/li&gt;&lt;li&gt;Energy&amp;nbsp;&lt;/li&gt;&lt;li&gt;Correlation&amp;nbsp;&lt;/li&gt;&lt;li&gt;ASM&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="150" x="445" y="517.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
