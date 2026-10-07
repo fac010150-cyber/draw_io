@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="CNN-GLCM-SVM Architecture" id="Wl_gSWdUnqIay8AT85t3">
-    <mxGraphModel dx="3492" dy="2027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2197" dy="1357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,8 +61,8 @@
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B1DAE7;strokeColor=#7EA7B5;fontSize=13;" value="Dense&lt;br&gt;64 units&lt;br&gt;ReLU" vertex="1">
           <mxGeometry height="48" width="130" x="625" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B1DAE7;strokeColor=#7EA7B5;fontSize=13;fontStyle=1;" value="CNN Feature Vector&lt;br&gt;64-D" vertex="1">
-          <mxGeometry height="42" width="130" x="625" y="323" as="geometry" />
+        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B1DAE7;strokeColor=#7EA7B5;fontSize=13;fontStyle=1;" value="CNN Feature Vector&lt;br&gt;(64-D)" vertex="1">
+          <mxGeometry height="55" width="130" x="645" y="457" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4DA;strokeColor=#A88B52;strokeWidth=2;" value="" vertex="1">
           <mxGeometry height="175" width="280" x="250" y="465" as="geometry" />
@@ -73,8 +73,8 @@
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#000000;fontSize=20;fontStyle=1;strokeWidth=2;" value="Preprocessed&lt;br&gt;Image" vertex="1">
           <mxGeometry height="55" width="200" x="-40" y="354" as="geometry" />
         </mxCell>
-        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#A88B52;fontSize=13;fontStyle=1;" value="GLCM Feature Vector&lt;br&gt;6-D" vertex="1">
-          <mxGeometry height="48" width="120" x="650" y="530" as="geometry" />
+        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#A88B52;fontSize=13;fontStyle=1;" value="&lt;div&gt;GLCM Feature Vector&lt;/div&gt;&lt;div&gt;(6-D)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="120" x="650" y="526" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE9F8;strokeColor=#76689A;strokeWidth=2;" value="" vertex="1">
           <mxGeometry height="520" width="360" x="835" y="150" as="geometry" />
