@@ -35,22 +35,22 @@
           <mxGeometry height="40.63" width="150" x="1460" y="380" as="geometry" />
         </mxCell>
         <mxCell id="RJaaKwU92insfsM3NOn_-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#8B7241;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="140" width="240" x="400" y="570" as="geometry" />
+          <mxGeometry height="140" width="240" x="410" y="470" as="geometry" />
         </mxCell>
         <mxCell id="RJaaKwU92insfsM3NOn_-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontStyle=1;fontSize=17;align=center;" value="&lt;div&gt;&lt;b&gt;GLCM TEXTURE&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;FEATURE EXTRACTION&lt;/b&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="220" x="410" y="571" as="geometry" />
+          <mxGeometry height="30" width="220" x="420" y="471" as="geometry" />
         </mxCell>
-        <mxCell id="RJaaKwU92insfsM3NOn_-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#8B7241;strokeWidth=2;fontSize=13;" value="&lt;b&gt;GLCM Feature Vector&lt;/b&gt;&lt;br&gt;(12-D)" vertex="1">
-          <mxGeometry height="65" width="150" x="445" y="626.5" as="geometry" />
+        <mxCell id="RJaaKwU92insfsM3NOn_-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#8B7241;strokeWidth=2;fontSize=14;" value="&lt;b&gt;GLCM Feature Vector&lt;/b&gt;&lt;br&gt;(12-D)" vertex="1">
+          <mxGeometry height="65" width="165" x="447.5" y="526.5" as="geometry" />
         </mxCell>
-        <mxCell id="RJaaKwU92insfsM3NOn_-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2D9F3;strokeColor=#76689A;fontSize=20;fontStyle=1;" value="&lt;div&gt;&lt;b&gt;Feature-level&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Concatenation&lt;/b&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="78" width="210" x="900" y="601" as="geometry" />
+        <mxCell id="RJaaKwU92insfsM3NOn_-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2D9F3;strokeColor=#76689A;fontSize=20;fontStyle=1;" value="&lt;div&gt;&lt;b&gt;Feature-level&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Concatenation&lt;/b&gt;&lt;/div&gt;(268-D)" vertex="1">
+          <mxGeometry height="78" width="210" x="715" y="501" as="geometry" />
         </mxCell>
         <mxCell id="RJaaKwU92insfsM3NOn_-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;fontStyle=1;" value="&lt;b&gt;RBF-SVM&lt;/b&gt;" vertex="1">
-          <mxGeometry height="78" width="205" x="1140" y="601" as="geometry" />
+          <mxGeometry height="78" width="205" x="955" y="501" as="geometry" />
         </mxCell>
         <mxCell id="RJaaKwU92insfsM3NOn_-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2E3E0;strokeColor=#9B7770;fontSize=20;fontStyle=1;" value="&lt;b&gt;Predicted Class&lt;/b&gt;" vertex="1">
-          <mxGeometry height="78" width="190" x="1390" y="601" as="geometry" />
+          <mxGeometry height="78" width="190" x="1205" y="501" as="geometry" />
         </mxCell>
         <mxCell id="RJaaKwU92insfsM3NOn_-19" edge="1" parent="1" source="RJaaKwU92insfsM3NOn_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;" target="RJaaKwU92insfsM3NOn_-2">
           <mxGeometry relative="1" as="geometry" />
@@ -70,10 +70,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RJaaKwU92insfsM3NOn_-25" edge="1" parent="1" source="RJaaKwU92insfsM3NOn_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;" target="RJaaKwU92insfsM3NOn_-15">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry relative="1" x="-0.0822" as="geometry">
             <Array as="points">
-              <mxPoint x="1535" y="530" />
-              <mxPoint x="1005" y="530" />
+              <mxPoint x="1535" y="470" />
+              <mxPoint x="820" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -82,7 +82,7 @@
         </mxCell>
         <mxCell id="RJaaKwU92insfsM3NOn_-27" edge="1" parent="1" source="RJaaKwU92insfsM3NOn_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1143" y="638.9999999999998" as="targetPoint" />
+            <mxPoint x="958" y="538.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RJaaKwU92insfsM3NOn_-29" edge="1" parent="1" source="RJaaKwU92insfsM3NOn_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;" target="RJaaKwU92insfsM3NOn_-18">
