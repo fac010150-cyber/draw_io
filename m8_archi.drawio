@@ -4,8 +4,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RJaaKwU92insfsM3NOn_-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4F8;strokeColor=#5B6B73;strokeWidth=2;fontSize=20;fontStyle=1" value="&lt;span&gt;EuroSAT RGB Image&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="165" x="220" y="146" as="geometry" />
+        <mxCell id="RJaaKwU92insfsM3NOn_-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4F8;strokeColor=#5B6B73;strokeWidth=2;fontSize=20;fontStyle=1" value="&lt;span&gt;Input Image&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="165" x="30" y="235" as="geometry" />
         </mxCell>
         <mxCell id="RJaaKwU92insfsM3NOn_-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#8B7241;strokeWidth=2;fontSize=20;fontStyle=1" value="&lt;div&gt;&lt;font&gt;&lt;span&gt;Preprocessed&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span&gt;Image&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="165" x="220" y="235" as="geometry" />
