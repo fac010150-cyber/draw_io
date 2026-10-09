@@ -77,7 +77,7 @@
           <mxGeometry height="175" width="280" x="225" y="455" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontStyle=1;fontSize=20;align=center;" value="&lt;div&gt;GLCM TEXTURE&amp;nbsp;&lt;/div&gt;&lt;div&gt;FEATURE EXTRACTION&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="385" x="465" y="455" as="geometry" />
+          <mxGeometry height="30" width="240" x="245" y="455" as="geometry" />
         </mxCell>
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#000000;fontSize=20;fontStyle=1;strokeWidth=2;" value="Preprocessed&lt;br&gt;Image" vertex="1">
           <mxGeometry height="55" width="200" x="-20" y="225" as="geometry" />
