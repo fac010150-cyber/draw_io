@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="CNN-GLCM-SVM Architecture" id="Wl_gSWdUnqIay8AT85t3">
-    <mxGraphModel dx="2946" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3532" dy="1637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -106,7 +106,7 @@
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2E3E0;strokeColor=#9B7770;fontSize=14;fontStyle=1;" value="Predicted Class&lt;br&gt;RSI-CB256: 4 classes&lt;br&gt;EuroSAT: 10 classes" vertex="1">
           <mxGeometry height="72" width="240" x="1560" y="362" as="geometry" />
         </mxCell>
-        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-34" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-8" />
+        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-34" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-8" />
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-35" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-9" />
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-36" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-10" />
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-37" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-11" />
@@ -117,8 +117,8 @@
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-42" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-20" />
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-43" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-21" />
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-44" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-22" />
-        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-45" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-26" />
-        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-46" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-27" />
+        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-45" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=classic;" />
+        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-46" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-27" />
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-47" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-30" />
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-48" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-30" />
         <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-49" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;" target="Jhfz-XPS4-5gAI2HYHQ7-31" />
@@ -137,11 +137,11 @@
             <mxPoint x="200" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-59" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-25" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeWidth=2;" target="Jhfz-XPS4-5gAI2HYHQ7-23" value="">
-          <mxGeometry relative="1" width="100" x="-0.323" as="geometry">
+        <mxCell id="Jhfz-XPS4-5gAI2HYHQ7-59" edge="1" parent="1" source="Jhfz-XPS4-5gAI2HYHQ7-1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeWidth=2;" target="Jhfz-XPS4-5gAI2HYHQ7-23" value="">
+          <mxGeometry relative="1" width="100" x="0.0916" as="geometry">
             <Array as="points">
-              <mxPoint x="180" y="417.5" />
-              <mxPoint x="180" y="542.5" />
+              <mxPoint x="-165" y="490" />
+              <mxPoint x="-165" y="540" />
             </Array>
             <mxPoint x="240" y="470" as="sourcePoint" />
             <mxPoint x="340" y="470" as="targetPoint" />
