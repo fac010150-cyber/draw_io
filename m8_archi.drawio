@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="M8 EuroSAT CNN-GLCM-SVM Architecture" id="JhFAkpXnxWOkewMZlao5">
-    <mxGraphModel dx="817" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,12 +35,12 @@
           <mxGeometry height="40.63" width="150" x="1460" y="380" as="geometry" />
         </mxCell>
         <mxCell id="RJaaKwU92insfsM3NOn_-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#8B7241;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="140" width="240" x="410" y="470" as="geometry" />
+          <mxGeometry height="140" width="380" x="250" y="470" as="geometry" />
         </mxCell>
         <mxCell id="RJaaKwU92insfsM3NOn_-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontStyle=1;fontSize=17;align=center;" value="&lt;div&gt;&lt;b&gt;GLCM TEXTURE&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;FEATURE EXTRACTION&lt;/b&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="220" x="420" y="471" as="geometry" />
+          <mxGeometry height="30" width="220" x="330" y="471" as="geometry" />
         </mxCell>
-        <mxCell id="RJaaKwU92insfsM3NOn_-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#8B7241;strokeWidth=2;fontSize=14;" value="&lt;b&gt;GLCM Feature Vector&lt;/b&gt;&lt;br&gt;(12-D)" vertex="1">
+        <mxCell id="RJaaKwU92insfsM3NOn_-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=light-dark(#000000, #9d885e);strokeWidth=2;fontSize=14;" value="&lt;b&gt;GLCM Feature Vector&lt;/b&gt;&lt;br&gt;(12-D)" vertex="1">
           <mxGeometry height="65" width="165" x="447.5" y="526.5" as="geometry" />
         </mxCell>
         <mxCell id="RJaaKwU92insfsM3NOn_-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2D9F3;strokeColor=#76689A;fontSize=20;fontStyle=1;" value="&lt;div&gt;&lt;b&gt;Feature-level&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Concatenation&lt;/b&gt;&lt;/div&gt;(268-D)" vertex="1">
@@ -220,6 +220,9 @@
             <mxPoint x="340" y="510" as="sourcePoint" />
             <mxPoint x="440" y="510" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AdSA-i13lHlIA___mEUk-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=light-dark(#000000, #9d885e);strokeWidth=2;fontSize=14;" value="&lt;b&gt;Grayscale Conversion and Quantization&lt;/b&gt;" vertex="1">
+          <mxGeometry height="65" width="165" x="270" y="526.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
